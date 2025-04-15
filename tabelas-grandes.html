@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <title>População dos Estados Brasileiros - 2024</title>
@@ -8,47 +9,61 @@
       width: 100%;
       border-collapse: collapse;
     }
-    th, td {
+
+    th,
+    td {
       border: 1px solid black;
       padding: 6px;
       text-align: left;
     }
+
     th {
       background-color: #f2f2f2;
     }
+
     .negrito {
       font-weight: bold;
     }
+
     .italico {
       font-style: italic;
     }
+
     .sublinhado {
       text-decoration: underline;
     }
+
     .riscado {
       text-decoration: line-through;
     }
+
     .sobrescrito {
       vertical-align: super;
       font-size: smaller;
     }
+
     .subs {
       vertical-align: sub;
       font-size: smaller;
     }
+
     .destacado {
       background-color: yellow;
     }
+
     .monoespaco {
       font-family: monospace;
     }
+
     .pre {
       white-space: pre;
       font-family: monospace;
     }
+
     .pequeno {
       font-size: smaller;
     }
+
     blockquote {
       margin: 0;
       padding-left: 10px;
@@ -56,14 +71,20 @@
     }
   </style>
 </head>
+
 <body>
-  <h2>População dos Estados Brasileiros - 2024</h2>
-  <table>
-    <tr>
-      <th>Estado</th>
-      <th>População</th>
-      <th>Comando HTML Utilizado</th>
-    </tr>
+  <thead>
+    <caption>
+    <h2>População dos Estados Brasileiros - 2024</h2>
+  </caption>
+    <table>
+      <tr>
+        <th>Estado</th>
+        <th>População</th>
+        <th>Comando HTML Utilizado</th>
+      </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>Acre</td>
       <td><span class="negrito destacado">830.018</span></td>
@@ -117,7 +138,9 @@
     <tr>
       <td>Mato Grosso</td>
       <td>3.658.813</td>
-      <td><pre>Texto pré-formatado</pre></td>
+      <td>
+        <pre>Texto pré-formatado</pre>
+      </td>
     </tr>
     <tr>
       <td>Paraíba</td>
@@ -132,7 +155,9 @@
     <tr>
       <td>Rio de Janeiro</td>
       <td>16.054.524</td>
-      <td><blockquote>Citação em bloco</blockquote></td>
+      <td>
+        <blockquote>Citação em bloco</blockquote>
+      </td>
     </tr>
     <tr>
       <td>Rio Grande do Sul</td>
@@ -154,10 +179,16 @@
       <td>1.607.363</td>
       <td><abbr title="Abreviação">‘Abreviação’</abbr></td>
     </tr>
+  </tbody>
+  <tfoot>
     <tr>
       <th>Total da população estimada:</th>
-      <td colspan="2">Realizar a soma das colunas</td>
+      <td>soma total</td>
+      <td>Realizar as somas das colunas</td>
+
     </tr>
+  </tfoot>
   </table>
 </body>
+
 </html>
